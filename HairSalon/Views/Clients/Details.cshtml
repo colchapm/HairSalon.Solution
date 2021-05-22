@@ -1,0 +1,18 @@
+@{
+  Layout = "_Layout";
+}
+
+@model HairSalon.Models.Client;
+
+<h2>client details</h2>
+<hr />
+
+<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
+<h3>@Html.DisplayNameFor(model => model.Gender): @Html.DisplayFor(model => model.Gender)</h3>
+<h3>@Html.DisplayNameFor(model => model.PreferredStyle): @Html.DisplayFor(model => model.PreferredStyle)</h3>
+<h3>@Html.DisplayNameFor(model => model.PhoneNumber): @Html.DisplayFor(model => model.PhoneNumber)</h3>
+@* <h3>@Html.DisplayNameFor(model => model.Stylist.Name): @Html.DisplayFor(model => model.Stylist.Name)</h3> *@
+
+<p>@Html.ActionLink("edit client", "Edit", new {id = Model.ClientId})</p>
+<p>@Html.ActionLink("delete client", "Delete", new {id = Model.ClientId})</p>
+<p>@Html.ActionLink("back to all clients", "Index")</p>
