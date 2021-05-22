@@ -51,11 +51,7 @@ This is a C# MVC web application built for Claire to help her manage her employe
 
 * _In Visual Studio Code, navigate to the `HairSalon` directory and create an **appsettings.json** file and input the following script (**note the name of the database below needs to match the name of the database you created (e.g. collin_chapman_test)**)_
 
-{
-  "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=collin_chapman_test;uid=root;pwd=[YOUR-PASSWORD];"
-  }
-}
+![Image of appsettings.json example](./HairSalon/wwwroot/img/appsettings.json_test.png)
 * _Back in the terminal, navigate to `$ cd HairSalon ` and run the application with the command `$ dotnet run`
 
 
