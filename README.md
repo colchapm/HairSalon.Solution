@@ -55,6 +55,11 @@ This is a C# MVC web application built for Claire to help her manage her employe
 * _Back in the terminal, navigate to `$ cd HairSalon ` and run the application with the command `$ dotnet run`
 
 
+## Diagram of the One-To-Many relationship used in this project
+
+![Image of SQL Designer](./HairSalon/wwwroot/img/sql_design.png)
+
+
 ## User Stories 
 
 | Functionalities | 
